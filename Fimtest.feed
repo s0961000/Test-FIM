@@ -1,0 +1,25 @@
+{
+    "feedinfo":  {
+                     "name":  "FIMTest",
+                     "display_name":  "FIM-Test",
+                     "provider_url":  "https//:google.com",
+                     "summary":  "File Integrity Monitoring Test",
+                     "tech_data":  "N/A"
+                 },
+    "reports":  [{
+                        "timestamp":  1597676983,
+                        "id":  "fimtest.txt",
+                        "link":  "https://google.com",
+                        "title":  "fimtest.txt",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5cfimtest.txt"
+                                                   }
+                                               ]
+                                 }
+                    }
+	]
+}
