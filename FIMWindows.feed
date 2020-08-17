@@ -2,7 +2,7 @@
     "feedinfo":  {
                      "name":  "FIMWindows",
                      "display_name":  "FIM-Windows",
-                     "provider_url":  "https//:google.com",
+                     "provider_url":  "https://google.com",
                      "summary":  "File Integrity Monitoring for protected Windows executables",
                      "tech_data":  "N/A"
                  },
