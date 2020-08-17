@@ -2,7 +2,7 @@
     "feedinfo":  {
                      "name":  "FIMTest",
                      "display_name":  "FIM-Test",
-                     "provider_url":  "https//:google.com",
+                     "provider_url":  "https://google.com",
                      "summary":  "File Integrity Monitoring Test",
                      "tech_data":  "N/A"
                  },
