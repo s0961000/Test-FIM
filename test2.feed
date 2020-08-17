@@ -1,0 +1,1736 @@
+{
+    "feedinfo":  {
+                     "name":  "FIMWindows",
+                     "display_name":  "FIM-Windows",
+                     "provider_url":  "https//:google.com",
+                     "summary":  "File Integrity Monitoring for protected Windows executables",
+                     "tech_data":  "N/A"
+                 },
+    "reports":  [
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "autoexec.bat",
+                        "link":  "https://google.com",
+                        "title":  "autoexec.bat",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5cautoexec.bat"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "boot.ini",
+                        "link":  "https://google.com",
+                        "title":  "boot.ini",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5cboot.ini"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "msdos.sys",
+                        "link":  "https://google.com",
+                        "title":  "msdos.sys",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5cmsdos.sys"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "explorer.exe",
+                        "link":  "https://google.com",
+                        "title":  "explorer.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5cexplorer.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "fimtest.txt",
+                        "link":  "https://google.com",
+                        "title":  "fimtest.txt",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5cfimtest.txt"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "poledit.exe",
+                        "link":  "https://google.com",
+                        "title":  "poledit.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5cpoledit.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "regedit.exe",
+                        "link":  "https://google.com",
+                        "title":  "regedit.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5cregedit.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "system.ini",
+                        "link":  "https://google.com",
+                        "title":  "system.ini",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem.ini"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "autoexec.nt",
+                        "link":  "https://google.com",
+                        "title":  "autoexec.nt",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cautoexec.nt"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "bootvrfy.exe",
+                        "link":  "https://google.com",
+                        "title":  "bootvrfy.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cbootvrfy.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "calc.exe",
+                        "link":  "https://google.com",
+                        "title":  "calc.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5ccalc.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "cdplayer.exe",
+                        "link":  "https://google.com",
+                        "title":  "cdplayer.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5ccdplayer.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "cipher.exe",
+                        "link":  "https://google.com",
+                        "title":  "cipher.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5ccipher.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "cmd.exe",
+                        "link":  "https://google.com",
+                        "title":  "cmd.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5ccmd.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "cmdl32.exe",
+                        "link":  "https://google.com",
+                        "title":  "cmdl32.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5ccmdl32.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "config.nt",
+                        "link":  "https://google.com",
+                        "title":  "config.nt",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cconfig.nt"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "debug.exe",
+                        "link":  "https://google.com",
+                        "title":  "debug.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cdebug.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "dllhost.exe",
+                        "link":  "https://google.com",
+                        "title":  "dllhost.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cdllhost.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "Drivers-Etc",
+                        "link":  "https://google.com",
+                        "title":  "*",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cdrivers%5cetc%5c*"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "drwatson.exe",
+                        "link":  "https://google.com",
+                        "title":  "drwatson.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cdrwatson.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "drwtsn32.exe",
+                        "link":  "https://google.com",
+                        "title":  "drwtsn32.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cdrwtsn32.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "eventvwr.exe",
+                        "link":  "https://google.com",
+                        "title":  "eventvwr.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5ceventvwr.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "eventcmd.exe",
+                        "link":  "https://google.com",
+                        "title":  "eventcmd.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5ceventcmd.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "eventwin.exe",
+                        "link":  "https://google.com",
+                        "title":  "eventwin.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5ceventwin.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "find.exe",
+                        "link":  "https://google.com",
+                        "title":  "find.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cfind.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "ftp.exe",
+                        "link":  "https://google.com",
+                        "title":  "ftp.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cftp.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "help.exe",
+                        "link":  "https://google.com",
+                        "title":  "help.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5chelp.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "icmp.dll",
+                        "link":  "https://google.com",
+                        "title":  "icmp.dll",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cicmp.dll"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "ipconfig.exe",
+                        "link":  "https://google.com",
+                        "title":  "ipconfig.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cipconfig.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "krnl386.exe",
+                        "link":  "https://google.com",
+                        "title":  "krnl386.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5ckrnl386.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "logoff.exe",
+                        "link":  "https://google.com",
+                        "title":  "logoff.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5clogoff.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "lsass.exe",
+                        "link":  "https://google.com",
+                        "title":  "lsass.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5clsass.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "makecab.exe",
+                        "link":  "https://google.com",
+                        "title":  "makecab.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cmakecab.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "mem.exe",
+                        "link":  "https://google.com",
+                        "title":  "mem.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cmem.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "mmc.exe",
+                        "link":  "https://google.com",
+                        "title":  "mmc.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cmmc.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "mountvol.exe",
+                        "link":  "https://google.com",
+                        "title":  "mountvol.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cmountvol.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "msiexec.exe",
+                        "link":  "https://google.com",
+                        "title":  "msiexec.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cmsiexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "msv1_0.dll",
+                        "link":  "https://google.com",
+                        "title":  "msv1_0.dll",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cmsv1_0.dll"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "nbtstat.exe",
+                        "link":  "https://google.com",
+                        "title":  "nbtstat.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cnbtstat.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "net.exe",
+                        "link":  "https://google.com",
+                        "title":  "net.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cnet.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "netapi.dll",
+                        "link":  "https://google.com",
+                        "title":  "netapi.dll",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cnetapi.dll"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "netmsg.dll",
+                        "link":  "https://google.com",
+                        "title":  "netmsg.dll",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cnetmsg.dll"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "netstat.exe",
+                        "link":  "https://google.com",
+                        "title":  "netstat.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cnetstat.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "ntbackup.exe",
+                        "link":  "https://google.com",
+                        "title":  "ntbackup.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cntbackup.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "ntdll.dll",
+                        "link":  "https://google.com",
+                        "title":  "ntdll.dll",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cntdll.dll"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "os2.exe",
+                        "link":  "https://google.com",
+                        "title":  "os2.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cos2.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "os2srv.exe",
+                        "link":  "https://google.com",
+                        "title":  "os2srv.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cos2srv.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "perfmon.exe",
+                        "link":  "https://google.com",
+                        "title":  "perfmon.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cperfmon.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "posix.exe",
+                        "link":  "https://google.com",
+                        "title":  "posix.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cposix.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "recover.exe",
+                        "link":  "https://google.com",
+                        "title":  "recover.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5crecover.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "regedt32.exe",
+                        "link":  "https://google.com",
+                        "title":  "regedt32.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cregedt32.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "register.exe",
+                        "link":  "https://google.com",
+                        "title":  "register.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cregister.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "regsvc.exe",
+                        "link":  "https://google.com",
+                        "title":  "regsvc.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cregsvc.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "regsvr32.exe",
+                        "link":  "https://google.com",
+                        "title":  "regsvr32.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cregsvr32.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "rexec.exe",
+                        "link":  "https://google.com",
+                        "title":  "rexec.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5crexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "rsh.exe",
+                        "link":  "https://google.com",
+                        "title":  "rsh.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5crsh.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "runas.exe",
+                        "link":  "https://google.com",
+                        "title":  "runas.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5crunas.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676983,
+                        "id":  "rundll32.exe",
+                        "link":  "https://google.com",
+                        "title":  "rundll32.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5crundll32.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "runonce.exe",
+                        "link":  "https://google.com",
+                        "title":  "runonce.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5crunonce.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "secedit.exe",
+                        "link":  "https://google.com",
+                        "title":  "secedit.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5csecedit.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "services.exe",
+                        "link":  "https://google.com",
+                        "title":  "services.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cservices.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "sethc.exe",
+                        "link":  "https://google.com",
+                        "title":  "sethc.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5csethc.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "setreg.exe",
+                        "link":  "https://google.com",
+                        "title":  "setreg.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5csetreg.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "sfc.exe",
+                        "link":  "https://google.com",
+                        "title":  "sfc.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5csfc.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "shdocvw.dll",
+                        "link":  "https://google.com",
+                        "title":  "shdocvw.dll",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cshdocvw.dll"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "shell.dll",
+                        "link":  "https://google.com",
+                        "title":  "shell.dll",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cshell.dll"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "shell32.dll",
+                        "link":  "https://google.com",
+                        "title":  "shell32.dll",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cshell32.dll"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "skeys.exe",
+                        "link":  "https://google.com",
+                        "title":  "skeys.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cskeys.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "smss.exe",
+                        "link":  "https://google.com",
+                        "title":  "smss.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5csmss.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "sndrec32.exe",
+                        "link":  "https://google.com",
+                        "title":  "sndrec32.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5csndrec32.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "sndvol32.exe",
+                        "link":  "https://google.com",
+                        "title":  "sndvol32.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5csndvol32.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "snmp.exe",
+                        "link":  "https://google.com",
+                        "title":  "snmp.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5csnmp.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "snmptrap.exe",
+                        "link":  "https://google.com",
+                        "title":  "snmptrap.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5csnmptrap.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "spupdsvc.exe",
+                        "link":  "https://google.com",
+                        "title":  "spupdsvc.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cspupdsvc.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "srvmgr.exe",
+                        "link":  "https://google.com",
+                        "title":  "srvmgr.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5csrvmgr.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "svchost.exe",
+                        "link":  "https://google.com",
+                        "title":  "svchost.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5csvchost.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "sysedit.exe",
+                        "link":  "https://google.com",
+                        "title":  "sysedit.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5csysedit.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "systray.exe",
+                        "link":  "https://google.com",
+                        "title":  "systray.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5csystray.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "taskman.exe",
+                        "link":  "https://google.com",
+                        "title":  "taskman.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5ctaskman.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "taskmgr.exe",
+                        "link":  "https://google.com",
+                        "title":  "taskmgr.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5ctaskmgr.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "tcpsvcs.exe",
+                        "link":  "https://google.com",
+                        "title":  "tcpsvcs.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5ctcpsvcs.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "telnet.exe",
+                        "link":  "https://google.com",
+                        "title":  "telnet.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5ctelnet.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "termsrv.exe",
+                        "link":  "https://google.com",
+                        "title":  "termsrv.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5ctermsrv.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "tlntadmn.exe",
+                        "link":  "https://google.com",
+                        "title":  "tlntadmn.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5ctlntadmn.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "tlntsess.exe",
+                        "link":  "https://google.com",
+                        "title":  "tlntsess.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5ctlntsess.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "tlntsvr.exe",
+                        "link":  "https://google.com",
+                        "title":  "tlntsvr.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5ctlntsvr.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "tscon.exe",
+                        "link":  "https://google.com",
+                        "title":  "tscon.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5ctscon.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "tsdiscon.exe",
+                        "link":  "https://google.com",
+                        "title":  "tsdiscon.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5ctsdiscon.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "tskill.exe",
+                        "link":  "https://google.com",
+                        "title":  "tskill.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5ctskill.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "tsprof.exe",
+                        "link":  "https://google.com",
+                        "title":  "tsprof.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5ctsprof.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "tsshutdn.exe",
+                        "link":  "https://google.com",
+                        "title":  "tsshutdn.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5ctsshutdn.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "unlodctr.exe",
+                        "link":  "https://google.com",
+                        "title":  "unlodctr.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cunlodctr.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "upg351db.exe",
+                        "link":  "https://google.com",
+                        "title":  "upg351db.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cupg351db.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "ups.exe",
+                        "link":  "https://google.com",
+                        "title":  "ups.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cups.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "user.exe",
+                        "link":  "https://google.com",
+                        "title":  "user.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cuser.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "userinit.exe",
+                        "link":  "https://google.com",
+                        "title":  "userinit.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cuserinit.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "usrmgr.exe",
+                        "link":  "https://google.com",
+                        "title":  "usrmgr.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cusrmgr.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "utilman.exe",
+                        "link":  "https://google.com",
+                        "title":  "utilman.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cutilman.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "verclsid.exe",
+                        "link":  "https://google.com",
+                        "title":  "verclsid.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cverclsid.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "verifier.exe",
+                        "link":  "https://google.com",
+                        "title":  "verifier.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cverifier.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "vwipxspx.exe",
+                        "link":  "https://google.com",
+                        "title":  "vwipxspx.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cvwipxspx.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "w32tm.exe",
+                        "link":  "https://google.com",
+                        "title":  "w32tm.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cw32tm.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "wextract.exe",
+                        "link":  "https://google.com",
+                        "title":  "wextract.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cwextract.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "winchat.exe",
+                        "link":  "https://google.com",
+                        "title":  "winchat.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cwinchat.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "winhlp32.exe",
+                        "link":  "https://google.com",
+                        "title":  "winhlp32.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cwinhlp32.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "wininet.dll",
+                        "link":  "https://google.com",
+                        "title":  "wininet.dll",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cwininet.dll"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "winlogon.exe",
+                        "link":  "https://google.com",
+                        "title":  "winlogon.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cwinlogon.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "winmsd.exe",
+                        "link":  "https://google.com",
+                        "title":  "winmsd.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cwinmsd.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "winsock.dll",
+                        "link":  "https://google.com",
+                        "title":  "winsock.dll",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cwinsock.dll"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "winspool.exe",
+                        "link":  "https://google.com",
+                        "title":  "winspool.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cwinspool.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "winver.exe",
+                        "link":  "https://google.com",
+                        "title":  "winver.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cwinver.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "ws2_32.dll",
+                        "link":  "https://google.com",
+                        "title":  "ws2_32.dll",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cws2_32.dll"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "wsock32.dll",
+                        "link":  "https://google.com",
+                        "title":  "wsock32.dll",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5csystem32%5cwsock32.dll"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "win.ini",
+                        "link":  "https://google.com",
+                        "title":  "win.ini",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5cwin.ini"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1597676984,
+                        "id":  "winrep.exe",
+                        "link":  "https://google.com",
+                        "title":  "winrep.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5cwinrep.exe"
+                                                   }
+                                               ]
+                                 }
+                    }
+                ]
+}
