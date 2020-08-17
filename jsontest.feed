@@ -1,0 +1,25 @@
+{
+  "feedinfo": {
+    "category": "Open Source", 
+    "provider_url": "https://www.google.com/", 
+    "display_name": "Chrome", 
+    "name": "Chrome", 
+    "tech_data": "There are no requirements to share any data to receive this feed.", 
+    "summary": "This feed searches for Chrome."
+  }, 
+  "reports": [
+    {
+      "title": "Chrome", 
+      "timestamp": 1597698138, 
+      "iocs": {
+        "query": [{
+	   "index_type": "events",
+	   "search_query": "cb.urlver=1&q=process_name%3Achrome.exe"
+	}]
+      }, 
+      "score": 50, 
+      "link": "https://google.com", 
+      "id": "Process-Chrome"
+    }
+			]
+}
