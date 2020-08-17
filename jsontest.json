@@ -1,0 +1,24 @@
+{
+    "feedinfo":  {
+                     "name":  "FIMWindows",
+                     "display_name":  "FIM Windows",
+                     "provider_url":  "https//:google.com",
+                     "summary":  "File Integrity Monitoring for protected Windows executables",
+                     "tech_data":  "N/A"
+                 },
+    "reports":  [
+                    {
+                        "timestamp":  1597245484,
+                        "id":  "FIM-filemod-autoexec.bat",
+                        "link":  "https://google.com",
+                        "title":  "As of 08/12/2020 15:18:04, autoexec.bat has been added to the FIM list.",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  {
+                                                   "index_type":  "events",
+                                                   "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5cautoexec.bat"
+                                               }
+                                 }
+                    }
+		]
+}
