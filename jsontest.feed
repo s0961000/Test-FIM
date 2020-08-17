@@ -1,0 +1,25 @@
+{
+  "feedinfo": {
+    "category": "Open Source", 
+    "provider_url": "https://www.torproject.org/", 
+    "display_name": "Tor Exit Nodes", 
+    "name": "tor", 
+    "tech_data": "There are no requirements to share any data to receive this feed.", 
+    "summary": "This feed is a list of Tor Node IP addresses, updated every 30 minutes."
+  }, 
+  "reports": [
+    {
+      "title": "13.64.95.164 has been a TOR exit node since 2020-06-27 01:00:00 and was last seen 2020-08-17 15:00:00 on port 443. Contact: none", 
+      "timestamp": 1597698138, 
+      "iocs": {
+        "query": [{
+	   "index_type": "events",
+	   "search_query": "cb.urlver=1&q=process_name%3Achrome.exe"
+	}]
+      }, 
+      "score": 0, 
+      "link": "http://www.torproject.org", 
+      "id": "TOR-Node-13.64.95.164"
+    }
+			]
+}
