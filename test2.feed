@@ -11,7 +11,7 @@
                         "timestamp":  1597675278,
                         "id":  "autoexec.bat",
                         "link":  "https://google.com",
-                        "title":  "autoexec",
+                        "title":  "autoexec.bat",
                         "score":  50,
                         "iocs":  {
                                      "query":  [
