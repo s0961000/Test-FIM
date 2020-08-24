@@ -8,9 +8,9 @@
                  },
     "reports":  [{
                         "timestamp":  1597676983,
-                        "id":  "fimtest.txt",
+                        "id":  "fimtestTxt",
                         "link":  "https://google.com",
-                        "title":  "fimtest.txt",
+                        "title":  "fimtestTxt",
                         "score":  50,
                         "iocs":  {
                                      "query":  [
