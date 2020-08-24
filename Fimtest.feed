@@ -20,6 +20,21 @@
                                                    }
                                                ]
                                  }
+                    },
+		    {
+                        "timestamp":  1597676999,
+                        "id":  "AppWiz",
+                        "link":  "https://google.com",
+                        "title":  "AppWizCPL",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=process_name%3Arundll32.exe%20cmdline%3Acontrol_RunDLL"
+                                                   }
+                                               ]
+                                 }
                     }
 	]
 }
