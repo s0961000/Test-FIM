@@ -35,7 +35,7 @@
                                      "query":  [
                                                    {
                                                        "index_type":  "events",
-                                                       "search_query":  "cb.urlver=1&q=filemod%3aC%3a%5cwindows%5cfimtest.txt"
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Cfimtest.txt"
                                                    }
                                                ]
                                  }
