@@ -1,0 +1,1736 @@
+{
+    "feedinfo":  {
+                     "name":  "FIMWindowsUpdated",
+                     "display_name":  "FIM-Windows",
+                     "provider_url":  "https://google.com",
+                     "summary":  "File Integrity Monitoring for protected Windows executables",
+                     "tech_data":  "N/A"
+                 },
+    "reports":  [
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "autoexec.bat",
+                        "link":  "https://google.com",
+                        "title":  "autoexec.bat",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Cautoexec.bat%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "boot.ini",
+                        "link":  "https://google.com",
+                        "title":  "boot.ini",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Cboot.ini%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "msdos.sys",
+                        "link":  "https://google.com",
+                        "title":  "msdos.sys",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Cmsdos.sys%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "explorer.exe",
+                        "link":  "https://google.com",
+                        "title":  "explorer.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Cexplorer.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "fimtest.txt",
+                        "link":  "https://google.com",
+                        "title":  "fimtest.txt",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Cfimtest.txt%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "poledit.exe",
+                        "link":  "https://google.com",
+                        "title":  "poledit.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Cpoledit.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "regedit.exe",
+                        "link":  "https://google.com",
+                        "title":  "regedit.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Cregedit.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "system.ini",
+                        "link":  "https://google.com",
+                        "title":  "system.ini",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem.ini%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "autoexec.nt",
+                        "link":  "https://google.com",
+                        "title":  "autoexec.nt",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cautoexec.nt%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "bootvrfy.exe",
+                        "link":  "https://google.com",
+                        "title":  "bootvrfy.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cbootvrfy.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "calc.exe",
+                        "link":  "https://google.com",
+                        "title":  "calc.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Ccalc.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "cdplayer.exe",
+                        "link":  "https://google.com",
+                        "title":  "cdplayer.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Ccdplayer.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "cipher.exe",
+                        "link":  "https://google.com",
+                        "title":  "cipher.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Ccipher.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "cmd.exe",
+                        "link":  "https://google.com",
+                        "title":  "cmd.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Ccmd.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "cmdl32.exe",
+                        "link":  "https://google.com",
+                        "title":  "cmdl32.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Ccmdl32.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "config.nt",
+                        "link":  "https://google.com",
+                        "title":  "config.nt",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cconfig.nt%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "debug.exe",
+                        "link":  "https://google.com",
+                        "title":  "debug.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cdebug.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "dllhost.exe",
+                        "link":  "https://google.com",
+                        "title":  "dllhost.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cdllhost.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "etc",
+                        "link":  "https://google.com",
+                        "title":  "*",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cdrivers%5Cetc%5C*%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "drwatson.exe",
+                        "link":  "https://google.com",
+                        "title":  "drwatson.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cdrwatson.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "drwtsn32.exe",
+                        "link":  "https://google.com",
+                        "title":  "drwtsn32.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cdrwtsn32.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "eventvwr.exe",
+                        "link":  "https://google.com",
+                        "title":  "eventvwr.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Ceventvwr.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "eventcmd.exe",
+                        "link":  "https://google.com",
+                        "title":  "eventcmd.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Ceventcmd.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "eventwin.exe",
+                        "link":  "https://google.com",
+                        "title":  "eventwin.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Ceventwin.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "find.exe",
+                        "link":  "https://google.com",
+                        "title":  "find.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cfind.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "ftp.exe",
+                        "link":  "https://google.com",
+                        "title":  "ftp.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cftp.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "help.exe",
+                        "link":  "https://google.com",
+                        "title":  "help.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Chelp.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "icmp.dll",
+                        "link":  "https://google.com",
+                        "title":  "icmp.dll",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cicmp.dll%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "ipconfig.exe",
+                        "link":  "https://google.com",
+                        "title":  "ipconfig.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cipconfig.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "krnl386.exe",
+                        "link":  "https://google.com",
+                        "title":  "krnl386.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Ckrnl386.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "logoff.exe",
+                        "link":  "https://google.com",
+                        "title":  "logoff.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Clogoff.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "lsass.exe",
+                        "link":  "https://google.com",
+                        "title":  "lsass.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Clsass.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "makecab.exe",
+                        "link":  "https://google.com",
+                        "title":  "makecab.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cmakecab.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "mem.exe",
+                        "link":  "https://google.com",
+                        "title":  "mem.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cmem.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "mmc.exe",
+                        "link":  "https://google.com",
+                        "title":  "mmc.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cmmc.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "mountvol.exe",
+                        "link":  "https://google.com",
+                        "title":  "mountvol.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cmountvol.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "msiexec.exe",
+                        "link":  "https://google.com",
+                        "title":  "msiexec.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cmsiexec.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "msv1_0.dll",
+                        "link":  "https://google.com",
+                        "title":  "msv1_0.dll",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cmsv1_0.dll%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "nbtstat.exe",
+                        "link":  "https://google.com",
+                        "title":  "nbtstat.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cnbtstat.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "net.exe",
+                        "link":  "https://google.com",
+                        "title":  "net.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cnet.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "netapi.dll",
+                        "link":  "https://google.com",
+                        "title":  "netapi.dll",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cnetapi.dll%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "netmsg.dll",
+                        "link":  "https://google.com",
+                        "title":  "netmsg.dll",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cnetmsg.dll%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "netstat.exe",
+                        "link":  "https://google.com",
+                        "title":  "netstat.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cnetstat.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "ntbackup.exe",
+                        "link":  "https://google.com",
+                        "title":  "ntbackup.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cntbackup.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "ntdll.dll",
+                        "link":  "https://google.com",
+                        "title":  "ntdll.dll",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cntdll.dll%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "os2.exe",
+                        "link":  "https://google.com",
+                        "title":  "os2.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cos2.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "os2srv.exe",
+                        "link":  "https://google.com",
+                        "title":  "os2srv.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cos2srv.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "perfmon.exe",
+                        "link":  "https://google.com",
+                        "title":  "perfmon.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cperfmon.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "posix.exe",
+                        "link":  "https://google.com",
+                        "title":  "posix.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cposix.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "recover.exe",
+                        "link":  "https://google.com",
+                        "title":  "recover.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Crecover.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "regedt32.exe",
+                        "link":  "https://google.com",
+                        "title":  "regedt32.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cregedt32.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "register.exe",
+                        "link":  "https://google.com",
+                        "title":  "register.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cregister.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "regsvc.exe",
+                        "link":  "https://google.com",
+                        "title":  "regsvc.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cregsvc.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "regsvr32.exe",
+                        "link":  "https://google.com",
+                        "title":  "regsvr32.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cregsvr32.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "rexec.exe",
+                        "link":  "https://google.com",
+                        "title":  "rexec.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Crexec.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "rsh.exe",
+                        "link":  "https://google.com",
+                        "title":  "rsh.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Crsh.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "runas.exe",
+                        "link":  "https://google.com",
+                        "title":  "runas.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Crunas.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "rundll32.exe",
+                        "link":  "https://google.com",
+                        "title":  "rundll32.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Crundll32.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "runonce.exe",
+                        "link":  "https://google.com",
+                        "title":  "runonce.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Crunonce.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "secedit.exe",
+                        "link":  "https://google.com",
+                        "title":  "secedit.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Csecedit.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "services.exe",
+                        "link":  "https://google.com",
+                        "title":  "services.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cservices.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "sethc.exe",
+                        "link":  "https://google.com",
+                        "title":  "sethc.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Csethc.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "setreg.exe",
+                        "link":  "https://google.com",
+                        "title":  "setreg.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Csetreg.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "sfc.exe",
+                        "link":  "https://google.com",
+                        "title":  "sfc.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Csfc.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "shdocvw.dll",
+                        "link":  "https://google.com",
+                        "title":  "shdocvw.dll",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cshdocvw.dll%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "shell.dll",
+                        "link":  "https://google.com",
+                        "title":  "shell.dll",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cshell.dll%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "shell32.dll",
+                        "link":  "https://google.com",
+                        "title":  "shell32.dll",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cshell32.dll%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "skeys.exe",
+                        "link":  "https://google.com",
+                        "title":  "skeys.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cskeys.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "smss.exe",
+                        "link":  "https://google.com",
+                        "title":  "smss.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Csmss.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "sndrec32.exe",
+                        "link":  "https://google.com",
+                        "title":  "sndrec32.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Csndrec32.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "sndvol32.exe",
+                        "link":  "https://google.com",
+                        "title":  "sndvol32.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Csndvol32.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "snmp.exe",
+                        "link":  "https://google.com",
+                        "title":  "snmp.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Csnmp.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "snmptrap.exe",
+                        "link":  "https://google.com",
+                        "title":  "snmptrap.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Csnmptrap.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "spupdsvc.exe",
+                        "link":  "https://google.com",
+                        "title":  "spupdsvc.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cspupdsvc.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "srvmgr.exe",
+                        "link":  "https://google.com",
+                        "title":  "srvmgr.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Csrvmgr.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "svchost.exe",
+                        "link":  "https://google.com",
+                        "title":  "svchost.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Csvchost.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "sysedit.exe",
+                        "link":  "https://google.com",
+                        "title":  "sysedit.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Csysedit.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "systray.exe",
+                        "link":  "https://google.com",
+                        "title":  "systray.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Csystray.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "taskman.exe",
+                        "link":  "https://google.com",
+                        "title":  "taskman.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Ctaskman.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "taskmgr.exe",
+                        "link":  "https://google.com",
+                        "title":  "taskmgr.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Ctaskmgr.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "tcpsvcs.exe",
+                        "link":  "https://google.com",
+                        "title":  "tcpsvcs.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Ctcpsvcs.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "telnet.exe",
+                        "link":  "https://google.com",
+                        "title":  "telnet.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Ctelnet.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "termsrv.exe",
+                        "link":  "https://google.com",
+                        "title":  "termsrv.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Ctermsrv.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "tlntadmn.exe",
+                        "link":  "https://google.com",
+                        "title":  "tlntadmn.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Ctlntadmn.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "tlntsess.exe",
+                        "link":  "https://google.com",
+                        "title":  "tlntsess.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Ctlntsess.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "tlntsvr.exe",
+                        "link":  "https://google.com",
+                        "title":  "tlntsvr.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Ctlntsvr.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "tscon.exe",
+                        "link":  "https://google.com",
+                        "title":  "tscon.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Ctscon.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "tsdiscon.exe",
+                        "link":  "https://google.com",
+                        "title":  "tsdiscon.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Ctsdiscon.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "tskill.exe",
+                        "link":  "https://google.com",
+                        "title":  "tskill.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Ctskill.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "tsprof.exe",
+                        "link":  "https://google.com",
+                        "title":  "tsprof.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Ctsprof.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "tsshutdn.exe",
+                        "link":  "https://google.com",
+                        "title":  "tsshutdn.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Ctsshutdn.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "unlodctr.exe",
+                        "link":  "https://google.com",
+                        "title":  "unlodctr.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cunlodctr.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "upg351db.exe",
+                        "link":  "https://google.com",
+                        "title":  "upg351db.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cupg351db.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "ups.exe",
+                        "link":  "https://google.com",
+                        "title":  "ups.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cups.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "user.exe",
+                        "link":  "https://google.com",
+                        "title":  "user.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cuser.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "userinit.exe",
+                        "link":  "https://google.com",
+                        "title":  "userinit.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cuserinit.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "usrmgr.exe",
+                        "link":  "https://google.com",
+                        "title":  "usrmgr.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cusrmgr.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "utilman.exe",
+                        "link":  "https://google.com",
+                        "title":  "utilman.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cutilman.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "verclsid.exe",
+                        "link":  "https://google.com",
+                        "title":  "verclsid.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cverclsid.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "verifier.exe",
+                        "link":  "https://google.com",
+                        "title":  "verifier.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cverifier.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "vwipxspx.exe",
+                        "link":  "https://google.com",
+                        "title":  "vwipxspx.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cvwipxspx.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "w32tm.exe",
+                        "link":  "https://google.com",
+                        "title":  "w32tm.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cw32tm.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "wextract.exe",
+                        "link":  "https://google.com",
+                        "title":  "wextract.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cwextract.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "winchat.exe",
+                        "link":  "https://google.com",
+                        "title":  "winchat.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cwinchat.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "winhlp32.exe",
+                        "link":  "https://google.com",
+                        "title":  "winhlp32.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cwinhlp32.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "wininet.dll",
+                        "link":  "https://google.com",
+                        "title":  "wininet.dll",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cwininet.dll%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "winlogon.exe",
+                        "link":  "https://google.com",
+                        "title":  "winlogon.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cwinlogon.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "winmsd.exe",
+                        "link":  "https://google.com",
+                        "title":  "winmsd.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cwinmsd.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "winsock.dll",
+                        "link":  "https://google.com",
+                        "title":  "winsock.dll",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cwinsock.dll%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "winspool.exe",
+                        "link":  "https://google.com",
+                        "title":  "winspool.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cwinspool.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "winver.exe",
+                        "link":  "https://google.com",
+                        "title":  "winver.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cwinver.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "ws2_32.dll",
+                        "link":  "https://google.com",
+                        "title":  "ws2_32.dll",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cws2_32.dll%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "wsock32.dll",
+                        "link":  "https://google.com",
+                        "title":  "wsock32.dll",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Csystem32%5Cwsock32.dll%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "win.ini",
+                        "link":  "https://google.com",
+                        "title":  "win.ini",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Cwin.ini%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    },
+                    {
+                        "timestamp":  1602761028,
+                        "id":  "winrep.exe",
+                        "link":  "https://google.com",
+                        "title":  "winrep.exe",
+                        "score":  50,
+                        "iocs":  {
+                                     "query":  [
+                                                   {
+                                                       "index_type":  "events",
+                                                       "search_query":  "cb.urlver=1&q=filemod%3AC%3A%5Cwindows%5Cwinrep.exe%20AND%20-process_name%3Apoqexec.exe"
+                                                   }
+                                               ]
+                                 }
+                    }
+                ]
+}
